@@ -15,7 +15,8 @@ class ClientController extends Controller
      */
     public function index()
     {
-        //
+        //Retornar la vista
+        return view('client.index');
     }
 
     /**
