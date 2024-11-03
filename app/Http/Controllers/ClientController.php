@@ -20,7 +20,7 @@ class ClientController extends Controller
         $clients = Client::paginate(5);
         //Retornar la vista
         return view('client.index')
-            ->with('clients', $clients);
+            ->with('clients',$clients);
     }
 
     /**

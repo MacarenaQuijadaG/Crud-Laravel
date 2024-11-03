@@ -27,10 +27,20 @@
                 </tr>
 
             @empty
+            <tr>
+                <td colspan="3">No hay Registros</td>
+            </tr>
 
             @endforelse
             
         </tbody>
     </table>
+
+
+    @if ($clients->count())
+        {{ $clients->links() }}
+    @endif
+ 
+   
 </div>
 @endsection
