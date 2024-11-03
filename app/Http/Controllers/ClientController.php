@@ -15,9 +15,12 @@ class ClientController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
+    {   
+        //Listar 
+        $clients = Client::paginate(5);
         //Retornar la vista
-        return view('client.index');
+        return view('client.index')
+            ->with('clients', $clients);
     }
 
     /**

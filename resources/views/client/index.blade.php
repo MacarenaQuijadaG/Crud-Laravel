@@ -11,7 +11,7 @@
             {{ Session::get('mensaje') }}
         </div>
     @endif
-    
+
     <table class="table">
         <thead>
             <th>Nombre</th>
@@ -19,11 +19,17 @@
             <th>Acciones</th>
         </thead>
         <tbody>
-            <tr>
-                <td>FelinoHost</td>
-                <td>0.0</td>
-                <td>Editar - Eiminar</td>
-            </tr>
+            @forelse ($clients as $detail)
+                <tr>
+                    <td>{{ $detail->name }}</td>
+                    <td>{{ $detail->due }}</td>
+                    <td>Editar - Eiminar</td>
+                </tr>
+
+            @empty
+
+            @endforelse
+            
         </tbody>
     </table>
 </div>
