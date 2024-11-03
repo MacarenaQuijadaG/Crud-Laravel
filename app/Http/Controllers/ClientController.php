@@ -26,7 +26,8 @@ class ClientController extends Controller
      */
     public function create()
     {
-        //
+        // Retornar la vista del crear cliente
+        return view('client.form');
     }
 
     /**
