@@ -1,11 +1,18 @@
 # Crud Clientes 
-
 ## Descripción del Proyecto
 
-Este es un proyecto que contiene la creacion de clientes mediante el CRUD con el gestor de base de datos mySql.
+Este proyecto permite la interacción del cliente mediante un CRUD (Crear, Leer, Actualizar y Eliminar) utilizando MySQL como gestor de base de datos. Desarrollado en Laravel, este sistema facilita la administración de clientes y la gestión de sus datos en una base de datos de forma sencilla y eficiente.
+
+## Características
+
+- **CRUD Completo**: Permite crear, ver, actualizar y eliminar registros de clientes.
+- **Validación de Datos**: Asegura la integridad de los datos ingresados por el usuario.
+- **Mensajes de Éxito y Error**: Informaciones claras sobre el estado de cada operación.
+- **Interfaz Intuitiva**: Formulario y vistas diseñadas para facilitar la experiencia del usuario.
+- **Utiliza MySQL**: Almacenamiento y gestión de datos en MySQL.
+- 
 ## Visuales
 ![1](https://github.com/user-attachments/assets/61f4e74a-4ae5-4adb-8c2c-f994378faa75)
-
 
 ## Tecnologías Utilizadas
 
