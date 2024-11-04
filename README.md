@@ -10,7 +10,7 @@ Este proyecto permite la interacción del cliente mediante un CRUD (Crear, Leer,
 - **Mensajes de Éxito y Error**: Informaciones claras sobre el estado de cada operación.
 - **Interfaz Intuitiva**: Formulario y vistas diseñadas para facilitar la experiencia del usuario.
 - **Utiliza MySQL**: Almacenamiento y gestión de datos en MySQL.
-- 
+  
 ## Visuales
 ![1](https://github.com/user-attachments/assets/61f4e74a-4ae5-4adb-8c2c-f994378faa75)
 
