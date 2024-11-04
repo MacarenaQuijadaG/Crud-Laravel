@@ -23,7 +23,10 @@
                 <tr>
                     <td>{{ $detail->name }}</td>
                     <td>{{ $detail->due }}</td>
-                    <td>Editar - Eiminar</td>
+                    <td>
+                        <a href="{{ route('client.edit', $detail) }}" class="btn btn-warning">Editar</a>
+                        <a href="{{ route('client.edit', $detail) }}" class="btn btn-danger">Eliminar</a>
+                    </td>
                 </tr>
 
             @empty
