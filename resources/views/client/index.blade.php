@@ -25,7 +25,12 @@
                     <td>{{ $detail->due }}</td>
                     <td>
                         <a href="{{ route('client.edit', $detail) }}" class="btn btn-warning">Editar</a>
-                        <a href="{{ route('client.edit', $detail) }}" class="btn btn-danger">Eliminar</a>
+
+                        <form action="{{ route('client.destroy', $detail) }}" method="post" class="d-inline">
+                            @method('DELETE')
+                            @csrf
+                            <button typr="submit" class="btn btn-danger" onclick="return confirm('Estas seguro de Eliminar este Cliente')">Eliminar</button>
+                        </form>
                     </td>
                 </tr>
 
