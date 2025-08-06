@@ -48,7 +48,12 @@ Antes de comenzar, asegúrate de tener instaladas las siguientes herramientas:
 
    ```bash
    composer install
+   ```
+
+     ```bash
    npm install
+   ```
+    ```bash
    npm run dev
    ```
 
